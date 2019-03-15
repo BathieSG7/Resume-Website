@@ -1,53 +1,196 @@
  <!doctype html>
 <html lang="en">
+  <!--================ Frist hader Area =================-->
   <head>
     <meta charset="utf-8">
-  </head>
-  <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!--================bootstrap================ -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">  </link>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <title>CV</title>
+    <style>
+      .row-content {
+        margin:0px auto;
+        padding: 50px 0px 50px 0px;
+        border-bottom: 1px ridge;
+        min-height:400px;
+      }
+    </style>
 
-    <div>
-      <h1 align="center">CV</h1>  <hr />
-      <h2>Samba SOUGOU  </h2>
-      <span align="left" >Élève Ingénieur en Génie Informatique et Télécom</span>
-      <img src="ept.png" align="right" height="120px" > 
-      <hr />     <br>
-      <p >Interests</p>
-        <ul>
-          <li>Drawing</li>
-          <li>Photography</li>
-          <li>Design</li>
-          <li>Programming</li>
-          <li>Computer Science</li>
-        </ul>
-      <p >Skills</p>
-      <ul>
-        <li>Web Design with HTML & CSS</li>
-      </ul>
-      <p >Education</p>
-      <ul>
-        <a href="http://www.wiltonhighschool.org/pages/Wilton_High_School">
-          <li>Wilton High School</li>
-        </a>
-        <!--Link-->
-        <a href="https://www.silvermineart.org/">
-          <li>Silvermine School of Arts</li>
-        </a>
-        <li>Codeacademy</li>
-      </ul>
-      <p >Experience</p>
-      <ul>
-        <li>Student Technology Intern for Wilton School District</li>
-        <li>Babysitter</li>
-      </ul>
-      <p class="head">Extracurriculars</p>
-      <ul>
-        <li>Recycling Club</li>
-        <li>Gardening Club</li>
-        <li>Book Club</li>
-      </ul>
+  </head>
+  <!--================End Footer Area =================-->
+  <body style="background-color: #DCDCDC">
+    <div class="mb-5">
+      <nav  class="navbar navbar-dark bg-dark navbar-expand-sm  fixed-top ">
+          <a class="navbar-brand col-3" href="#" > <img src="ept.png" class="rounded-circle align-content-sm-start align-content-sm-end" height="35px" width="35px">  </a> 
+          <div class="container">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon">  </span>
+              </button>         
+              <div class="collapse navbar-collapse " id="Navbar">
+                  <ul class="navbar-nav ml-auto ">
+                      <li class="navbar-item active">
+                          <a class="nav-link" href=#> <i class="fa fa-graduation-cap fa-lg"> </i>  Formation </a>  
+                      </li>
+                      <li class="navbar-item">
+                          <a class="nav-link" href="#"> <i class="fa fa-university fa-lg"> </i>  Compétences </a>
+                      </li>
+                      <li class="navbar-item"> 
+                          <a class="nav-link" href="#"> <i class="fa 	fa fa-check-square-o fa-lg"> </i>  Réalisations </a>  
+                      </li>
+                      <li class="navbar-item">
+                          <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true"> <i class="fa 	fa fa-tag fa-lg"> </i> Autres</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+    </div>
+
+    <div style="background-color: white" class="container ">
+      &nbsp;
+    </div>
+  
+    <div class="jumbotron mb-0  mt-0 jumbotron-fluid">
+      <div class="container mt-3 mx-auto">
+        <div class="row">
+          <div class="col-12 col-sm-4"> 
+              <img src="Samba.JPG" class="img-fluid rounded-top rounded-bottom img-thumbnail"/> 
+          </div>
+          <div class="col-12 col-sm-6"> 
+            <h2>Samba SOUGOU  </h2>
+              <ul class="list-unstyled ">            
+                <li align="left" > <i class="fa fa-map  fa-xl"> </i> :   Dieuppeul II, Dakar/Sénégal</li> 
+                <li align="left" > <i class="fa fa-phone  fa-xl"> </i> : 77 6052097</li> 
+                <li align="left" > <i class="fa fa-envelope  fa-xl"> </i> : <a href="mailto:sougousamba@gmail.com ">  sougousamba@gmail.com </a></li> 
+                <li> <i class="fa fa-laptop fa-xl"> : </i> Élève Ingénieur en Génie Informatique et Télécom </li>
+              </ul>  
+          </div>
+          <div  class="col-sm-2 "> 
+              
+          </div> 
+        </div>  
+      </div>  
     </div>
 
 
+  <!--================Total container Area =================-->
+      <div style="background-color: white" class="container  align-items-center">
+          <section class="row-content">
+            <div class="row">
+                <div class="col-12">                    
+                    <div class="card">
+                        <h3 align="center" class="card-header bg-primary text-white"><i class="fa fa-graduation-cap fa-lg"> </i> <b> Formation </b></h3>
+                        <div class="card-body">
+                            <div class="row ">
+                                <div class="table-responsive">
+                                  <table class="table table-striped ">
+                                  <thead class="thead-white">
+                                      <tr>
+                                          <th>&nbsp;</th>
+                                          <th>Années</th>
+                                          <th>Etablissement</th>
+                                      </tr>
+                                  </thead>
+                                  <tbody>
+                                      <tr>
+                                          <th>[1er Année] en Cycle Ingénieur Génie Informatique et Télécom</th>
+                                          <td>En cours..</td>
+                                          <td><a href="http://www.ept.sn" >EPT</a> </td>
+                                      </tr>
+                                      <tr>
+                                          <th>Cycle préparatoire (Tronc Commun)</th>
+                                          <td>2016 / 2018</td>
+                                          <td><a href="http://www.ept.sn" >EPT</a> </td>
+                                      </tr>
+                                      <tr>
+                                          <th>Baccalauréat MATHEMATIQUES ET SCIENCES PHYSIQUES (S1) sénégalais <br> Mention Assez Bien</th>
+                                          <td> 2015 / 2016</td>
+                                          <td>Collège Notre Dame du Liban</td>
+                                      </tr>
+                                      <tr>
+                                          <th>Brevet de Fin d'étude Moyen  </th>
+                                          <td>2012 / 2013</td>
+                                          <td>Collège Notre Dame du Liban</td>
+                                      </tr>
+                                </tbody>
+                                </table>
+                                </div>    
+                            </div>
+                      </div>
+                    </div>
+                </div> 
+            </div>
+          </section>
+
+          <section class="row-content">
+            <div class="row">
+              <div class="col-4"> 
+                  <div class="card">
+                      <h3 align="center" class="card-header bg-primary text-white"><i class="fa fa-university fa-lg"> </i> <b> Compétences </b></h3>
+                      <div class="card-body">
+                          This is the Body part
+                      </div>
+                  </div>
+              </div>
+              <div class="col-4"> 
+                  <div class="card">
+                      <h3 align="center" class="card-header bg-primary text-white"><i class="fa fa-university fa-lg"> </i> <b> Compétences </b></h3>
+                      <div class="card-body">
+                          This is the Body part
+                      </div>
+                  </div>
+              </div>
+              <div class="col-4"> 
+                  <div class="card">
+                      <h3 align="center" class="card-header bg-primary text-white"><i class="fa fa-university fa-lg"> </i> <b> Compétences </b></h3>
+                      <div class="card-body">
+                          This is the Body part
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="row-content">
+            <div class="row">
+              <p >Education</p>
+              <ul>
+                <a href="http://www.wiltonhighschool.org/pages/Wilton_High_School">
+                  <li>Wilton High School</li>
+                </a>
+                <!--Link-->
+                <a href="https://www.silvermineart.org/">
+                  <li>Silvermine School of Arts</li>
+                </a>
+                <li>Codeacademy</li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="row-content">
+            <div class="row">
+              <p class="head">Extracurriculars</p>
+              <ul>
+                <li>Recycling Club</li>
+                <li>Gardening Club</li>
+                <li>Book Club</li>
+              </ul>
+            </div>
+          </section>
+     </div>
+<!--================End Total container Area =================-->
+
+
+    <!-- =========jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    
   </body>
 </html>
 
